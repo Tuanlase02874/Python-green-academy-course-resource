@@ -1,0 +1,12 @@
+services:
+  devpy39:
+    container_name: devpy39
+    build:
+      context: .
+      dockerfile: Dockerfile
+    entrypoint: /bin/bash
+    stdin_open: true 
+    tty: true
+    volumes:
+      - ${PWD}:/workspace
+
