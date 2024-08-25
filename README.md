@@ -13,6 +13,7 @@ This Python Bootcamp will take you from beginner to advanced, focusing on both t
 
 $ docker compose up -d
 
+$ jupyter lab --allow-root
 ```
 
 

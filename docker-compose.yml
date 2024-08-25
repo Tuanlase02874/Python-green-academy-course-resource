@@ -9,4 +9,5 @@ services:
     tty: true
     volumes:
       - .:/workspace
+    network_mode: "host"  # Use host network mode
 

@@ -8,4 +8,5 @@ WORKDIR /workspace
 COPY requirements.txt .
 
 # Install the dependencies
+RUN pip install --upgrade pip
 RUN pip install --no-cache-dir -r requirements.txt
