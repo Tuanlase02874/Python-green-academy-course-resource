@@ -1,4 +1,3 @@
-"""
 
 def sum(lower, upper, margin):
     for x in range(margin):
@@ -18,9 +17,8 @@ def sum(lower, upper, margin):
         return result
 
 
-"""
 
-def sum(lower, upper, margin):
+def recursive_sum(lower, upper, margin):
     # Python 3 requires print as a function
     for x in range(margin):
         print(" ", end="")  # end="" ensures no newline is added after printing the space
@@ -39,3 +37,5 @@ def sum(lower, upper, margin):
         return result
 
     
+print("sum")
+sum(lower=1, upper=5, margin=2)

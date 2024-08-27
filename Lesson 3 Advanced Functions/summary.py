@@ -8,9 +8,16 @@ def summation(lower, upper):
     while lower <= upper:
         result += lower
         lower += 1
-        print("DEBUG result:", result)
+        #print("DEBUG result:", result)
     return result
 
-print(summation(1,4))
+def recursive_summation(lower, upper):
+    if upper < lower:
+        return 0
+    return upper + recursive_summation(lower, upper - 1)
 
-print(summation(50,100))
+print(summation(1,4))
+print("recursive_summation")
+print(recursive_summation(1,4))
+
+#print(summation(50,100))
