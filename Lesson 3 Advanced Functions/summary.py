@@ -8,6 +8,7 @@ def summation(lower, upper):
     while lower <= upper:
         result += lower
         lower += 1
+        print("DEBUG result:", result)
     return result
 
 print(summation(1,4))
