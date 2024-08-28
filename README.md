@@ -11,6 +11,8 @@ This Python Bootcamp will take you from beginner to advanced, focusing on both t
 
 ```bash
 
+
+$ docker compose build
 $ docker compose up -d
 $ docker exec -it devpy39 bash 
 
