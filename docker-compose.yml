@@ -10,4 +10,14 @@ services:
     volumes:
       - .:/workspace
     network_mode: "host"  # Use host network mode
+  devpy39_llm:
+    build:
+      context: .
+      dockerfile: Dockerfile.llmrag
+    entrypoint: /bin/bash
+    stdin_open: true 
+    tty: true
+    volumes:
+      - .:/workspace
+    network_mode: "host"  # Use host network mode
 

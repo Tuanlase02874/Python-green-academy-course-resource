@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+jupyterlab
+openai
+python-dotenv
+langchain[all]
+sentence-transformers
+chromadb
+streamlit
+pypdf
