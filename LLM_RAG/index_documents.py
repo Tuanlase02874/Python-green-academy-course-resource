@@ -19,7 +19,7 @@ from langchain.vectorstores import Chroma
 from langchain.vectorstores import OpenSearchVectorSearch
 from langchain.vectorstores.pgvector import PGVector
 
-SOURCE_DOCUMENTS = ["source_documents/5008_Federalist Papers.pdf"]
+SOURCE_DOCUMENTS = ["source_documents/5008_Federalist Papers.pdf",]
 COLLECTION_NAME = "doc_index"
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 
