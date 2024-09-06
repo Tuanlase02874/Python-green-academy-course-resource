@@ -2,3 +2,4 @@
 LLM_RAG/data
 *.env
 *LLM_RAG/data
+*.json
